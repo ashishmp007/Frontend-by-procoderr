@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temporal Dead Zone</title>
+    <script src="temporal dead zone.js"></script>
+  </head>
+  <body>
+    <p>
+      In var we can access the variable before declaration but in let and const
+      we can't access the variable before declaration because of temporal dead
+      zone.
+    </p>
+    <p>
+      Temporal Dead Zone (TDZ) is a behavior in JavaScript where variables declared
+      with let and const are not accessible before their declaration. This means
+      that if you try to access a variable declared with let or const before it
+      has been declared, you will get a ReferenceError.
+    </p>
+  </body>
+</html>
